@@ -95,6 +95,7 @@ The model produces high-quality novel view syntheses of 3D scenes from a set of 
 - Structural Similarity Index (SSIM)
 
 Example renderings and metrics can be found in the `logs/media/` directory after running the testing script.
+![NeRF Output](https://raw.githubusercontent.com/Prasham2181/NeRF/main/NeRF.gif)
 
 ## Dataset
 The code is configured to work with the standard NeRF synthetic datasets. The default path is set for the "lego" dataset. To use a different dataset, specify the path using the `--data_path` argument.
