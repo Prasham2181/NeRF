@@ -1,8 +1,5 @@
 # Neural Radiance Fields (NeRF) Implementation
 
-## Team Members
-- Prasham Soni
-- Sarthak Mehta
 
 ## Project Overview
 This project implements Neural Radiance Fields (NeRF), a neural network-based method for synthesizing novel views of complex 3D scenes. NeRF works by optimizing a continuous volumetric scene function from a set of input images, allowing for high-quality view synthesis.
@@ -15,6 +12,13 @@ This project implements Neural Radiance Fields (NeRF), a neural network-based me
 - Validation and testing modules with metrics calculation (MSE, PSNR, SSIM)
 - Novel view synthesis capabilities
 - Support for rendering spiral camera paths for video creation
+- 
+## Team Members
+- Prasham Soni
+- Sarthak Mehta
+## Output for the Project
+
+![NeRF Output](https://raw.githubusercontent.com/Prasham2181/NeRF/main/NeRF.gif)
 
 ## Dependencies
 - PyTorch
@@ -95,7 +99,6 @@ The model produces high-quality novel view syntheses of 3D scenes from a set of 
 - Structural Similarity Index (SSIM)
 
 Example renderings and metrics can be found in the `logs/media/` directory after running the testing script.
-![NeRF Output](https://raw.githubusercontent.com/Prasham2181/NeRF/main/NeRF.gif)
 
 ## Dataset
 The code is configured to work with the standard NeRF synthetic datasets. The default path is set for the "lego" dataset. To use a different dataset, specify the path using the `--data_path` argument.
